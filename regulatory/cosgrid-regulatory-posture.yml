@@ -1,0 +1,12 @@
+generated: '2026-10-20'
+source: https://www.cosgrid.com/privacy-policy
+method: probed
+signals:
+  incident_notification:
+    evidence:
+      - source: https://www.cosgrid.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "We use industry-standard information, security tools, and measures, as well as internal procedures and strict guidelines to prevent information misuse and data leakage. Our employees are subject to confidentiality obligations. We use measures and procedures that substantially reduce the risks of data misuse, but we cannot guarantee that our systems will be absolutely safe. If you become aware of any potential data breach or security vulnerability, you are requested to contact us immediately."
+        section: Security and Confidentiality
+    note: Describes breach notification process and contact method.

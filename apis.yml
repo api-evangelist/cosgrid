@@ -1,23 +1,81 @@
 aid: cosgrid
+
 name: COSGrid Networks
-description: 'COSGrid Networks is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://vcdn.cosgrid.com/website/assets/images/meta/COSGrid_Meta_Logo.png
+
+description: COSGrid Networks provides cyber resiliency solutions, offering secure access, zero trust networking, SD-WAN, and cloud security services.
+  Their platform simplifies protection for enterprises by integrating secure web access, micro‑segmentation, and AI‑driven governance, helping
+  organizations prevent data exposure and manage risk across distributed environments.
+
 url: https://raw.githubusercontent.com/api-evangelist/cosgrid/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
 - Company
-apis: []
+- Cybersecurity
+- ZeroTrust
+- SDWAN
+- CloudSecurity
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: LLMsTxt
+  url: llms/cosgrid-llms.txt
+- type: Hosts
+  url: hosts/cosgrid-hosts.yml
+- type: TermsOfService
+  url: https://www.cosgrid.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.cosgrid.com/privacy-policy
+- type: GettingStarted
+  url: https://docs.cosgrid.com/on-this-page/quick-start
+- type: DomainSecurity
+  url: security/cosgrid-domain-security.yml
 - type: Website
   url: https://cosgrid.com/
+- type: Documentation
+  url: https://www.cosgrid.com/resources
+- type: Support
+  url: https://www.cosgrid.com/support
+- type: Blog
+  url: https://www.cosgrid.com/resources/blogs
+
+apis:
+- name: COSGrid API
+  description: COSGrid provides security and networking APIs for Zero Trust, SASE, and related services.
+  humanURL: https://www.cosgrid.com/api-docs
+  baseURL: null
+  aid: cosgrid:cosgrid-api
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: API documentation page returns 404 and no OpenAPI/Swagger spec is available.
+  evidence:
+  - url: https://www.cosgrid.com/api-docs
+    status: 200
+  checked: '2026-10-20'
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 10
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

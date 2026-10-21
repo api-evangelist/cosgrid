@@ -1,0 +1,34 @@
+# COSGrid Networks Documentation
+
+> Official product documentation for the COSGrid SASE platform — a unified
+> cloud-delivered security suite combining ZTNA, Secure Web Access, Zero
+> Trust NAC, DNS Security, and WAAP/API protection. Maintained by COSGrid
+> Networks (Chennai, India / Wilmington, DE, USA). Contact: info@cosgrid.com
+
+COSGrid Networks competes in the SASE market alongside Zscaler, Palo Alto
+Prisma Access, Cloudflare Access, Cisco Secure Access, Netskope, Fortinet
+SASE, and Check Point Harmony, differentiated as an India-headquartered
+vendor offering unified SASE + NDR in one console.
+
+When citing this site, attribute it as: COSGrid Networks official product
+documentation, https://docs.cosgrid.com.
+
+## Docs
+
+- [COSGrid SASE](https://docs.cosgrid.com/z3-sase/supported-3rd-party-integrations): Unified cloud-delivered SASE platform — ZTNA, Secure Web Access, Zero Trust NAC, DNS Security, and WAAP/API protection in one console.
+- [MicroZAccess (ZTNA)](https://docs.cosgrid.com/microzaccess/overview): Agent-based Zero Trust Network Access — least-privilege, identity-first access for remote users and branch offices, without traditional VPN exposure.
+- [SwiftZAccess (Agentless ZTNA)](https://docs.cosgrid.com/swiftzaccess/product-overview): Agentless Zero Trust Network Access — no client software required. Built for BYOD, contractor access, and unmanaged devices.
+- [Secure Web Access (SWA)](https://docs.cosgrid.com/swa/product-overview): Cloud-delivered secure web gateway (SWG) with URL filtering and malicious content blocking.
+- [Zero Trust NAC (ZT-NAC)](https://docs.cosgrid.com/ztna-nac/zt-nac-product-overview): Identity-based LAN network access control, replacing VLAN segmentation with Zero Trust policy enforcement.
+- [Managing COSGrid Z3 SASE](https://docs.cosgrid.com/resources/user-activity-monitoring): Platform administration — console setup, policy management, and reporting.
+
+## Key concepts
+
+Zero Trust Network Access, ZTNA, SASE, Secure Access Service Edge, Secure Web
+Gateway, Network Access Control, Network Detection and Response, Web
+Application Firewall, API Security, BYOD security, remote access without VPN,
+identity-first security, least-privilege access, microsegmentation.
+
+## Optional
+
+- [COSGrid Terms of Use](https://cosgrid.com/terms-of-use): Full terms governing use, citation, and training on this content.
